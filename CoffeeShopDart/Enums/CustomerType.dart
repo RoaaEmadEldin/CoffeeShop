@@ -1,5 +1,10 @@
 enum CustomerType{
   Regular,
   New,
-  VIP
+  VIP;
+
+  @override
+  String toString() {
+    return this.name;
+  }
 }

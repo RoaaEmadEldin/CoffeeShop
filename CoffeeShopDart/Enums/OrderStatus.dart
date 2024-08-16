@@ -1,4 +1,9 @@
 enum OrderStatus{
-  pending,
-  completed
+  Pending,
+  Completed;
+
+  @override
+  String toString() {
+    return this.name;
+  }
 }
